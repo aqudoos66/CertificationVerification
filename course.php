@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('file/config.php');
 
 // Check if user is not logged in
 if (!isset($_SESSION['user_id'])) {
@@ -62,7 +63,6 @@ if (!isset($_SESSION['user_id'])) {
                       </thead>
                       <tbody>
                         <?php
-                        include('file/config.php');
 
                         // Search feature
                         $search = "";
