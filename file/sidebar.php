@@ -26,6 +26,7 @@
                 <li><a class="nav-link" href="course.php">View</a></li>
               </ul>
             </li>
+<<<<<<< HEAD
             <!-- <li class="dropdown">
                 <li><a class="nav-link" href="chat.html">Add</a></li>
                 <li><a class="nav-link" href="portfolio.html">view</a></li>
@@ -41,6 +42,8 @@
                 <li><a class="nav-link" href="email-read.html">read</a></li>
               </ul>
             </li> -->
+=======
+>>>>>>> 1602c91 (committed)
             
           </ul>
         </aside>
