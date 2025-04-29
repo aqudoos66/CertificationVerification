@@ -156,6 +156,7 @@ if (isset($_GET['cnic'])) {
       <div id="certificate">
         <p><strong>Name:</strong> <?php echo htmlspecialchars($candidate['candidate_name']); ?></p>
         <p><strong>CNIC:</strong> <?php echo htmlspecialchars($candidate['cnic']); ?></p>
+        <p><strong>Course:</strong> <?php echo htmlspecialchars($candidate['course_name']); ?></p>
       </div>
 
       <!-- Print Certificate Form -->

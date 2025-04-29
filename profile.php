@@ -93,7 +93,7 @@ if (!isset($_SESSION['user_id'])) {
                   }
                   ?>
 
-                  <form method="post" enctype="multipart/form-data" action="file/update-profile.php" class="needs-validation" novalidate="">
+                  <form method="post" enctype="multipart/form-data" action="update-admin.php" class="needs-validation" novalidate="">
                     <input type="hidden" name="csrf_token" value="">
                     
                     <div class="row">

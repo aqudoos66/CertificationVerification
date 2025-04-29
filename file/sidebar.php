@@ -10,6 +10,7 @@
             <li class="dropdown active">
               <a href="homepage.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
+
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i
                   data-feather="briefcase"></i><span>Certificates</span></a>
@@ -18,30 +19,24 @@
                 <li><a class="nav-link" href="view-candidate.php">View</a></li>
               </ul>
             </li>
+            
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="command"></i><span>Course</span></a>
               <ul class="dropdown-menu">
-
                 <li><a class="nav-link" href="add-course.php">Add</a></li>
                 <li><a class="nav-link" href="course.php">View</a></li>
               </ul>
             </li>
 
-            <!-- <li class="dropdown">
-                <li><a class="nav-link" href="chat.html">Add</a></li>
-                <li><a class="nav-link" href="portfolio.html">view</a></li>
-                
+            <li class="dropdown">
+              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="command"></i><span>Admin</span></a>
+              <ul class="dropdown-menu">
+
+                <li><a class="nav-link" href="add-admin.php">Add</a></li>
+                <li><a class="nav-link" href="admin.php">View</a></li>
               </ul>
             </li>
-             <li class="dropdown">
 
-              <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
-              <ul class="dropdown-menu">
-                <li><a class="nav-link" href="email-inbox.html">Inbox</a></li>
-                <li><a class="nav-link" href="email-compose.html">Compose</a></li>
-                <li><a class="nav-link" href="email-read.html">read</a></li>
-              </ul>
-            </li> -->
           </ul>
         </aside>
       </div>
