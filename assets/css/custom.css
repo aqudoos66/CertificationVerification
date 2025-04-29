@@ -2,3 +2,21 @@
 /*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
 
 /*# sourceMappingURL=custom.css.map */
+
+.card-statistic-4 {
+    display: flex;
+    flex-direction: column;
+    height: 200px; /* Or whatever height fits best */
+    justify-content: space-between;
+  }
+  
+  .card-content h2 {
+    font-size: 24px;
+  }
+  
+  .banner-img img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
+  

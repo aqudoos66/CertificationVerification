@@ -89,7 +89,7 @@ if (!isset($_SESSION['user_id'])) {
                                 echo "<td>" . htmlspecialchars($row['from_date']) . " to " . htmlspecialchars($row['to_date']) . "</td>";
                                 echo "<td>
                                         <div class='btn-group'>
-                                          <a href='view-certificate.php?id=" . $row['id'] . "' class='btn btn-outline-primary' title='View Certificate'>
+                                          <a href='view-certificate.php?cnic=" . $row['cnic'] . "' class='btn btn-outline-primary' title='View Certificate'>
                                               <i class='fas fa-eye'></i>
                                           </a>
                                           <a href='edit-candidate.php?id=" . $row['id'] . "' class='btn btn-outline-warning' title='Edit'>

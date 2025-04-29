@@ -1,14 +1,13 @@
 <?php
-// Include database connection
 include('../file/config.php');
 
-// Get CNIC from the URL parameter
 if (isset($_GET['cnic'])) {
-    // $id = $_GET['id'];
     $cnic = $_GET['cnic'];
 
-    // Fetch candidate data
-    $stmt = $conn->prepare("SELECT * FROM candidates WHERE cnic = ? or id = ?");
+    
+    $id = $cnic;
+
+    $stmt = $conn->prepare("SELECT * FROM candidates WHERE cnic = ? OR id = ?");
     $stmt->bind_param("ss", $cnic, $id);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -19,12 +18,12 @@ if (isset($_GET['cnic'])) {
         die("Certificate not found.");
     }
 
-    // Format dates
     $issueDate = date('d M, Y', strtotime($candidate['issue_date']));
     $fromDate = date('d M, Y', strtotime($candidate['from_date']));
     $toDate = date('d M, Y', strtotime($candidate['to_date']));
 } else {
-    die("No CNIC provided.");
+    header("Location: ../index.php");
+    exit();
 }
 ?>
 

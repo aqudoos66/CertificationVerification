@@ -47,7 +47,7 @@ if ($result->num_rows > 0) {
         $candidateName = $row['candidate_name'];
         $cnic = $row['cnic'];
 
-        $codeContents = "https://certification.cokinstitute.com/E-certificate/index.php?cnic=$cnic";
+        $codeContents = "https://certification.cokinstitute.com/index.php?cnic=$cnic";
 
         
         $cleanName = preg_replace('/[^A-Za-z0-9\-]/', '_', $candidateName);

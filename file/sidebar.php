@@ -26,14 +26,14 @@
                 <li><a class="nav-link" href="course.php">View</a></li>
               </ul>
             </li>
-<<<<<<< HEAD
+
             <!-- <li class="dropdown">
                 <li><a class="nav-link" href="chat.html">Add</a></li>
                 <li><a class="nav-link" href="portfolio.html">view</a></li>
                 
               </ul>
             </li>
-<!--             <li class="dropdown">
+             <li class="dropdown">
 
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
               <ul class="dropdown-menu">
@@ -42,9 +42,6 @@
                 <li><a class="nav-link" href="email-read.html">read</a></li>
               </ul>
             </li> -->
-=======
->>>>>>> 1602c91 (committed)
-            
           </ul>
         </aside>
       </div>
