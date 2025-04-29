@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
             <div class="card card-primary">
                 <div class="card-header">
-                  <h4 class="text-center w-100">Admin - Login</h4>
+                  <h4 class="text-center w-100">Admin - Register</h4>
                 </div>
               <div class="card-body">
                 <?php if (isset($error)): ?>
